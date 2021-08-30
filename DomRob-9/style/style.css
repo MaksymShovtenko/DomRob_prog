@@ -1,0 +1,493 @@
+/* --Fonts $-- */
+/* --Colors $-- */
+/* --Sizes $-- */
+/* wb - width block */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000313}}
+*, body {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000317}}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000321}}
+li {
+  display: inline;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000325}}
+.page-all {
+  margin: 0 auto;
+  max-width: 75rem;
+  padding: 1.5rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000330}}
+.flex-properties {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* --HEADER-- */
+/*
+header {
+    margin: 0 auto;
+    height: 90vh;
+    background: url('..//img/BG/01.jpg') 0 -9rem/auto no-repeat fixed; 
+}
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000344}}
+header {
+  margin: 0 auto;
+  height: 43rem;
+  max-height: 100%;
+  background: url("..//img/BG/01.jpg") no-repeat center fixed;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000350}}
+header .border-bottom-logo-nav {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  /*position: fixed;
+  background-color: rgba(255, 255, 255, 0.8);*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000357}}
+header .header-container, header .header-logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000360}}
+header .header-container .header-nav, header .header-logo .header-nav {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000362}}
+header .header-container .header-nav a, header .header-logo .header-nav a {
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  display: inline;
+  font-family: "Teko", sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000371}}
+header .header-container .header-nav a:hover, header .header-logo .header-nav a:hover {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000377}}
+.header-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000382}}
+.header-info .title-subtitle {
+  width: 50%;
+  margin-top: 7rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000387}}
+.header-info .title-subtitle h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+  font-weight: 600;
+  font-family: "Teko", sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\0000393}}
+.header-info .title-subtitle h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003100}}
+.link-social {
+  padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003104}}
+.link-social img {
+  width: 2.3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003107}}
+.link-social li {
+  opacity: .5;
+  padding: 0 1.5rem 0 0;
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003114}}
+.link-social li:hover {
+  opacity: .9;
+}
+
+/* --Blocks: INTRO, EXPIRIENCE, WORKS, CONTACTS-- */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003119}}
+section {
+  padding: 5rem 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003122}}
+.block-intro {
+  color: #a8a9ac;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003125}}
+.block-intro .title-block {
+  padding-left: 2rem;
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003128}}
+.block-intro .title-block h2, .block-intro .title-block p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003133}}
+.block-intro .title-block h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #445162;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003141}}
+.block-intro .text-block {
+  width: 75%;
+  padding-left: 9rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003144}}
+.block-intro .text-block p {
+  line-height: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+/* --bg-fa - background-color: #fafafa;-- */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003152}}
+.bg-fa {
+  background-color: #fafafa;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003156}}
+.three-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  padding-left: 9rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003161}}
+.three-blocks .blocks-section {
+  background-color: #fff;
+  padding: 2rem;
+  margin-right: .2rem;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003166}}
+.three-blocks .blocks-section img, .three-blocks .blocks-section h3, .three-blocks .blocks-section p {
+  padding-bottom: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003169}}
+.three-blocks .blocks-section img {
+  width: 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003172}}
+.three-blocks .blocks-section h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #445162;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003176}}
+.three-blocks .blocks-section p {
+  line-height: 1.3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003180}}
+.three-blocks .blocks-section:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #17bed2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003185}}
+.three-blocks .blocks-section:hover h3 {
+  color: #fff;
+}
+
+/* --GRID container-- */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003192}}
+.grid-container {
+  width: 75%;
+  padding-left: 9rem;
+  display: grid;
+  grid-template-rows: 16rem 12rem;
+  grid-template-columns: auto auto auto;
+  grid-gap: .2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003200}}
+.grid-container .box-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003204}}
+.grid-container .box-1, .grid-container .box-2 {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003207}}
+.grid-container img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003210}}
+.grid-container .obscuration {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003213}}
+.grid-container .box-1:hover .obscuration {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003223}}
+.grid-container .box-2:hover .obscuration {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003234}}
+.contact-blocks {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 9rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003239}}
+.contact-blocks .contact-block {
+  padding: 0 2rem 0 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003241}}
+.contact-blocks .contact-block h4 {
+  color: #445162;
+  padding-bottom: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003245}}
+.contact-blocks .contact-block a {
+  color: #a8a9ac;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003249}}
+.contact-blocks .contact-block a:hover {
+  opacity: .7;
+}
+
+/* --FOOTER -- */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003256}}
+.footer-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003259}}
+.footer-container a {
+  color: #445162;
+  font-weight: 600;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003264}}
+.footer-container a:hover {
+  opacity: .7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003267}}
+.footer-container p {
+  font-size: .9rem;
+  opacity: .8;
+}
+
+/* --@MEDIA-- */
+@media screen and (max-width: 1300px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003275}}
+  header {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003278}}
+  header .flex-properties {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003283}}
+  header .title-subtitle h1 {
+    font-size: 5rem !important;
+    line-height: 5rem !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003287}}
+  header .title-subtitle h3 {
+    font-size: 1.5rem !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003292}}
+  header .link-social li {
+    padding: 0 .5rem 0 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003297}}
+  .grid-container {
+    width: 100%;
+    grid-template-rows: 13.3rem 12rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003302}}
+  footer .flex-properties {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003306}}
+  footer .footer-link {
+    padding-left: 1rem;
+  }
+}
+@media screen and (max-width: 932px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003312}}
+  .page-all {
+    padding: 1rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003315}}
+  header {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003318}}
+  header .header-nav a {
+    padding: 0 0 0 2.5rem !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003322}}
+  .flex-properties {
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003327}}
+  .block-intro .title-block {
+    padding-left: 0;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003330}}
+  .block-intro .title-block h2, .block-intro .title-block p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003335}}
+  .block-intro .title-block p {
+    margin-bottom: 1rem;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003339}}
+  .block-intro .text-block {
+    width: 100%;
+    padding-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003342}}
+  .block-intro .text-block p {
+    line-height: 1.4rem;
+    padding-bottom: 1rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003348}}
+  .three-blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-left: 0;
+    margin: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003354}}
+  .grid-container {
+    margin: 0 auto;
+    padding: 0;
+    grid-template-rows: 18rem 14rem;
+    grid-template-columns: auto auto auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003360}}
+  .contact-blocks {
+    padding-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003363}}
+  .contact-blocks .contact-block {
+    padding: 0 2rem 0 0;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003369}}
+  section {
+    padding: 3rem 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003373}}
+  .grid-container, .three-blocks, .contact-blocks {
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003377}}
+  .blocks-section {
+    margin-right: 0;
+    margin-bottom: .2rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003383}}
+  .contact-block h4 {
+    padding: 2rem 0 0 0;
+  }
+}
+@media screen and (max-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Maksym\/Desktop\/DomRob-9\/style\/style\.scss}line{font-family:\00003390}}
+  .title-subtitle h1 {
+    margin-top: -5rem;
+  }
+}
